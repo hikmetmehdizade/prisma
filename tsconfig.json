@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2016",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "declaration": true,
+    "allowJs": true,
+    "esModuleInterop": false
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}
