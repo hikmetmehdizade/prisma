@@ -2,11 +2,14 @@
   "compilerOptions": {
     "sourceMap": true,
     "outDir": "dist",
+    "rootDir": ".",
     "strict": true,
-    "lib": ["esnext"],
+    "target": "ES2015",
+    "lib": ["esnext", "dom"],
     "declaration": true,
-    "esModuleInterop": true,
     "moduleResolution": "Node",
-    "allowJs": true
-  }
+    "esModuleInterop": true,
+    "isolatedModules": true
+  },
+  "exclude": ["rollup.config.js"]
 }
