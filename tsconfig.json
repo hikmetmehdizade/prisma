@@ -4,12 +4,15 @@
     "outDir": "dist",
     "rootDir": ".",
     "strict": true,
-    "target": "ES2015",
-    "lib": ["esnext", "dom"],
+    "target": "ES6",
     "declaration": true,
+    "experimentalDecorators": true,
+    "emitDeclarationOnly": true,
     "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "isolatedModules": true
+    "incremental": false,
+    "allowJs": true,
+    "declarationMap": true
   },
-  "exclude": ["rollup.config.js"]
+  "exclude": ["node_modules"],
+  "include": ["./**/*"]
 }
